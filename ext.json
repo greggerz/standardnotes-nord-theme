@@ -1,0 +1,15 @@
+{
+  "identifier": "com.greggerz.standardnotes-nord-theme",
+  "name": "Nord Theme",
+  "description": "A Nord theme for Standard Notes.",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "url": "https://greggerz.github.io/standardnotes-nord-theme/nord-theme.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#8FBCBB",
+    "foreground_color": "#8FBCBB",
+    "border_color": "#4C566A"
+  }
+}
