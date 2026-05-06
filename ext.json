@@ -5,8 +5,8 @@
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
-  "url": "https://cdn.jsdelivr.net/gh/greggerz/standardnotes-nord-theme@v1.0.0/nord-theme.css",
-  "download_url": "https://github.com/greggerz/standardnotes-nord-theme/archive/dist-1.0.0.zip",
+  "url": "https://cdn.jsdelivr.net/gh/greggerz/standardnotes-nord-theme@gh-pages/nord-theme.css",
+  "download_url": "https://github.com/greggerz/standardnotes-nord-theme/archive/refs/tags/v1.0.0.zip",
   "latest_url": "https://listed.to/p/rJPRlkSjml",
   "marketing_url": "https://github.com/greggerz/standardnotes-nord-theme",
   "dock_icon": {
