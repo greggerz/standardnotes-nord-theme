@@ -1,0 +1,21 @@
+{
+  "name": "standardnotes-nord-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --no-source-map ./src/main.scss ./dist/nord-theme.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nord": "^0.2.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.97.3"
+  },
+  "sn": {
+    "main": "nord-theme.css"
+  }
+}
