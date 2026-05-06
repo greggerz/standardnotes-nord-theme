@@ -5,6 +5,7 @@
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
+  "main": "nord-theme.css",
   "url": "https://cdn.jsdelivr.net/gh/greggerz/standardnotes-nord-theme@gh-pages/nord-theme.css",
   "download_url": "https://github.com/greggerz/standardnotes-nord-theme/archive/refs/tags/v1.0.0.zip",
   "latest_url": "https://listed.to/p/rJPRlkSjml",
