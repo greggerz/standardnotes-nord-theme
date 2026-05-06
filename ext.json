@@ -1,0 +1,19 @@
+{
+  "identifier": "com.greggerz.standardnotes-nord-theme",
+  "name": "Nord Theme",
+  "description": "A Nord theme for Standard Notes.",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "0.0.1",
+  "main": "dist/nord-theme.css",
+  "url": "https://greggerz.github.io/standardnotes-nord-theme/nord-theme.css",
+  "download_url": "https://github.com/greggerz/standardnotes-nord-theme/releases/download/v0.0.1/dist-v0.0.1.zip",
+  "latest_url": "https://listed.to/p/rJPRlkSjml",
+  "marketing_url": "https://github.com/greggerz/standardnotes-nord-theme",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#8FBCBB",
+    "foreground_color": "#8FBCBB",
+    "border_color": "#4C566A"
+  }
+}

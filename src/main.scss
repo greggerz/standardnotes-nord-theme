@@ -1,0 +1,125 @@
+@use '../node_modules/nord/src/sass/nord';
+
+:root {
+  --background: #{nord.$nord1};
+  --secondary-background: #{nord.$nord2};
+  --current-line: #{nord.$nord3};
+  --foreground: #{nord.$nord6};
+  --comment: #{nord.$nord9};
+  --red: #{nord.$nord11};
+  --orange: #{nord.$nord12};
+  --green: #{nord.$nord14};
+  --pink: #{nord.$nord15};
+  --purple: #{nord.$nord9};
+  --cyan: #{nord.$nord8};
+  --yellow: #{nord.$nord13};
+  --bar-color: #{nord.$nord1};
+  --darker-background: #{nord.$nord0};
+  --darker-background-border: #{nord.$nord0};
+  --darker-pink: #9C6B93;
+
+  --sn-stylekit-accessory-tint-color-1: var(--purple);
+  --sn-stylekit-accessory-tint-color-2: var(--pink);
+  --sn-stylekit-accessory-tint-color-3: var(--orange);
+  --sn-stylekit-accessory-tint-color-4: var(--cyan);
+  --sn-stylekit-accessory-tint-color-5: var(--green);
+  --sn-stylekit-accessory-tint-color-6: var(--yellow);
+  --highlight-color: var(--comment);
+  --sn-component-foreground-color: var(--foreground);
+  --sn-component-background-color: var(--background);
+  --sn-component-foreground-highlight-color: var(--highlight-color);
+  --sn-component-outer-border-color: var(--comment);
+  --sn-component-inner-border-color: var(--foreground);
+  --sn-stylekit-shadow-color: var(--comment);
+  --sn-stylekit-info-color: var(--pink);
+  --sn-stylekit-info-contrast-color: var(--background);
+  --sn-stylekit-info-backdrop-color: #2b6fcf0f;
+  --sn-stylekit-neutral-color: var(--purple);
+  --sn-stylekit-neutral-contrast-color: var(--foreground);
+  --sn-stylekit-success-color: var(--green);
+  --sn-stylekit-success-contrast-color: var(--background);
+  --sn-stylekit-warning-color: var(--orange);
+  --sn-stylekit-warning-contrast-color: var(--background);
+  --sn-stylekit-danger-color: var(--red);
+  --sn-stylekit-danger-contrast-color: var(--foreground);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-background-color: var(--background);
+  --sn-stylekit-foreground-color: var(--foreground);
+  --sn-stylekit-border-color: var(--darker-background-border);
+  --sn-stylekit-contrast-background-color: var(--bar-color);
+  --sn-stylekit-contrast-foreground-color: var(--foreground);
+  --sn-stylekit-contrast-border-color: var(--footer-border);
+  --sn-stylekit-secondary-background-color: var(--secondary-background);
+  --sn-stylekit-secondary-foreground-color: var(--foreground);
+  --sn-stylekit-secondary-border-color: var(--darker-background-border);
+  --sn-stylekit-secondary-contrast-background-color: var(--current-line);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground);
+  --sn-stylekit-secondary-contrast-border-color: var(--foreground);
+  --sn-stylekit-paragraph-text-color: var(--foreground);
+  --sn-desktop-titlebar-bg-color: var(--background);
+  --sn-desktop-titlebar-border-color: var(--comment);
+  --sn-desktop-titlebar-ui-color: var(--foreground);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--comment);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-grey-5: var(--highlight-color);
+  --sn-stylekit-grey-4-opacity-variant: var(--current-line);
+
+  --sn-stylekit-passive-color-4: #0e0c11;
+  --sn-stylekit-passive-color-4-opacity-variant: #0000003d;
+  --sn-stylekit-passive-color-3: var(--purple);
+  --sn-stylekit-passive-color-5: #080507;
+
+  --navigation-item-selected-background-color:var(--sn-stylekit-secondary-contrast-background-color);
+}
+
+.sn-component .sk-panel .sk-panel-footer .left {
+  color: var(--foreground);
+}
+
+#plus-editor label kbd {
+  background-color: var(--sn-stylekit-background-color);
+}
+
+// CodeMirror Changes
+.cm-s-default .cm-header {color: var(--green);}
+.cm-s-default .cm-quote {color: var(--green);}
+.cm-negative {color: var(--red);}
+.cm-positive {color: var(--green);}
+.cm-s-default .cm-keyword {color: var(--cyan);}
+.cm-s-default .cm-atom {color: var(--foreground);}
+.cm-s-default .cm-number {color: var(--pink);}
+.cm-s-default .cm-def {color: var(--foreground);}
+.cm-s-default .cm-variable-2 {color: #{nord.$nord4};}
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #{nord.$nord4};}
+.cm-s-default .cm-comment {color: #616E88;}
+.cm-s-default .cm-string {color: var(--green);}
+.cm-s-default .cm-string-2 {color: var(--orange);}
+.cm-s-default .cm-meta {color: #555;}
+.cm-s-default .cm-qualifier {color: #555;}
+.cm-s-default .cm-builtin {color: var(--purple);}
+.cm-s-default .cm-bracket {color: #997;}
+.cm-s-default .cm-tag {color: #{nord.$nord4};}
+.cm-s-default .cm-attribute {color: var(--cyan);}
+.cm-s-default .cm-hr {color: #999;}
+.cm-s-default .cm-link {color: var(--cyan);}
+.cm-s-default .cm-error {color: var(--red);}
+.cm-invalidchar {color: var(--red);}
+.cm-fat-cursor .CodeMirror-cursor {
+  background: var(--foreground);
+  color: var(--sn-stylekit-info-contrast-color) !important;
+}
+div.CodeMirror span.CodeMirror-matchingbracket {color: var(--pink);}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--red);}
+.CodeMirror-matchingtag { background: var(--orange); }
+.CodeMirror-activeline-background {background: #e8f2ff;}
+
+.CodeMirror-selected {
+    background: var(--secondary-background) !important;
+}
+
+.CodeMirror .cm-variable.CodeMirror-selectedtext, .CodeMirror .cm-variable-1.CodeMirror-selectedtext, .CodeMirror .cm-variable-2.CodeMirror-selectedtext, .CodeMirror .cm-variable-3.CodeMirror-selectedtext, .CodeMirror .cm-string-2.CodeMirror-selectedtext {
+    color: var(--sn-stylekit-info-color) !important;
+    background: rgba(0,0,0,0);
+}
