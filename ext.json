@@ -6,7 +6,7 @@
   "area": "themes",
   "version": "1.0.0",
   "main": "dist/nord-theme.css",
-  "url": "https://cdn.jsdelivr.net/gh/greggerz/standardnotes-nord-theme@gh-pages/nord-theme.css",
+  "url": "https://greggerz.github.io/standardnotes-nord-theme/nord-theme.css",
   "download_url": "https://github.com/greggerz/standardnotes-nord-theme/releases/download/v1.0.0/dist-v1.0.0.zip",
   "latest_url": "https://listed.to/p/rJPRlkSjml",
   "marketing_url": "https://github.com/greggerz/standardnotes-nord-theme",
